@@ -1,0 +1,43 @@
+<div class=" mat-app-background">
+
+  <nav md-tab-nav-bar>
+
+      <a md-tab-link
+        [routerLink] = "['floor-plan']"
+        routerLinkActive #rlaRef4 = "routerLinkActive"
+        [active] = "rlaRef4.isActive">
+          Floor Plan
+      </a>
+
+      <a md-tab-link
+        [routerLink] = "['appointments']"
+        routerLinkActive #rlaRef1 = "routerLinkActive"
+        [active] = "rlaRef1.isActive">
+          Appointments
+      </a>
+
+      <a md-tab-link
+        [routerLink] = "['product']"
+        routerLinkActive #rlaRef2 = "routerLinkActive"
+        [active] = "rlaRef2.isActive">
+          Products
+      </a>
+
+      <a md-tab-link
+            [routerLink] = "['procedure']"
+            routerLinkActive #rlaRef5 = "routerLinkActive"
+            [active] = "rlaRef5.isActive">
+          Procedures
+      </a>
+
+      <a md-tab-link
+        [routerLink] = "['about']"
+        routerLinkActive #rlaRef3 = "routerLinkActive"
+        [active] = "rlaRef3.isActive">
+          About
+      </a>
+
+  </nav>
+  <router-outlet></router-outlet>
+
+</div>

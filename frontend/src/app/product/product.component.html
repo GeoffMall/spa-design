@@ -1,0 +1,37 @@
+<div *ngIf="!viewSingle" class="mat-card">
+
+  <md-card class="blue-back">
+    <md-card-title>
+      Products
+    </md-card-title>
+    <md-list *ngIf="products">
+      <md-list-item *ngFor="let product of products" (click)="viewToSingle(product)"
+        class="mat-nav-list" mdTooltip="Click to see info">
+          {{product.name}}
+      </md-list-item>
+    </md-list>
+  </md-card>
+
+</div>
+
+
+<div *ngIf="viewSingle" class="mat-card">
+
+  <md-card *ngIf="currentProduct" class="teal-back">
+
+      <md-card-title>{{ currentProduct.name }}</md-card-title>
+      <md-card-subtitle>{{ currentProduct.duration }}</md-card-subtitle>
+
+      <md-card-content>
+          <p>{{ currentProduct.description }}</p>
+          <p align="right">{{ currentProduct.price }}</p>
+          <p align="center"><button md-button>Buy</button></p>
+      </md-card-content>
+
+      <md-card-actions align = "start">
+          <button md-button (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
+      </md-card-actions>
+
+  </md-card>
+
+</div>

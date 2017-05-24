@@ -1,0 +1,117 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+* {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+$red-a100: #ff8a80;
+$red-a200: #ff5252;
+$red-a400: #ff1744;
+$red-a700: #d50000;
+
+$pink-a100: #ff80ab;
+$pink-a200: #ff4081;
+$pink-a400: #f50057;
+$pink-a700: #c51162;
+
+$purple-a100: #ea80fc;
+$purple-a200: #e040fb;
+$purple-a400: #d500f9;
+$purple-a700: #aa00ff;
+
+$deep-purple-a100: #b388ff;
+$deep-purple-a200: #7c4dff;
+$deep-purple-a400: #651fff;
+$deep-purple-a700: #6200ea;
+
+$teal-a100: #a7ffeb;
+$teal-a200: #64ffda;
+$teal-a400: #1de9b6;
+$teal-a700: #00bfa5;
+
+$blue-a100: #82b1ff;
+$blue-a200: #448aff;
+$blue-a400: #2979ff;
+$blue-a700: #2962ff;
+
+md-list-item:nth-of-type(4n+0) {
+  background-color: $red-a100;
+}
+
+md-list-item:nth-of-type(4n+1) {
+  background-color: $pink-a100;
+}
+
+md-list-item:nth-of-type(4n+2) {
+  background-color: $purple-a100;
+}
+
+md-list-item:nth-of-type(4n+3) {
+  background-color: $deep-purple-a100;
+}
+
+.teal-back {
+  background-color: $teal-a400;
+}
+
+.blue-back {
+  background-color: $blue-a200;
+}
+
+body {
+  font-size: 1rem;
+  background-color: #ebebeb;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 100;
+  color: #777;
+}
+
+/*
+.main-wrapper {
+  border-radius: 4px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+
+i.material-icons {
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.3s ease;
+}
+
+i.material-icons:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: solid 2px;
+  transform: scale(0.8);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+i.material-icons:hover:after {
+  transform: scale(1);
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.19), 6px 0 6px rgba(0, 0, 0, 0.23);
+}
+
+
+i.material-icons:hover {
+  background-color: transparent;
+  transform: rotate(90deg);
+  cursor: pointer;
+  box-shadow: none;
+}
+*/
