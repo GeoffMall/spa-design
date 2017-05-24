@@ -1,7 +1,12 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 * {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Pacifico', cursive;
+  // font-family: "Roboto", Arial, sans-serif;
 }
+
+
+$text-primary: #212121;
+$text-secondary: #757575;
 
 $red-a100: #ff8a80;
 $red-a200: #ff5252;
@@ -33,6 +38,13 @@ $blue-a200: #448aff;
 $blue-a400: #2979ff;
 $blue-a700: #2962ff;
 
+$deep-orange-a100: #ff9e80;
+$deep-orange-a200: #ff6e40;
+$deep-orange-a400: #ff3d00;
+$deep-orange-a700: #dd2c00;
+
+$brown-800: #4e342e;
+
 md-list-item:nth-of-type(4n+0) {
   background-color: $red-a100;
 }
@@ -49,24 +61,24 @@ md-list-item:nth-of-type(4n+3) {
   background-color: $deep-purple-a100;
 }
 
-.teal-back {
+.back-teal {
   background-color: $teal-a400;
 }
 
-.blue-back {
+.back-blue {
   background-color: $blue-a200;
 }
 
-body {
-  font-size: 1rem;
-  background-color: #ebebeb;
-  padding: 20px;
-  text-align: center;
+.back-brown {
+  background-color: $brown-800;
 }
 
-h1 {
-  font-weight: 100;
-  color: #777;
+
+body {
+  font-size: 1rem;
+  background-color: $deep-orange-a700;
+  padding: 20px;
+  text-align: center;
 }
 
 /*
