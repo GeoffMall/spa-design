@@ -17,7 +17,7 @@ export class ProcedureComponent implements OnInit {
 
   ngOnInit() {
     this.procedures = PROCEDURES;
-    console.log('Using mock procedures');
+    // console.log('Using mock procedures');
 
     /* TODO add this when back end is added
     this.procedureService.getProcedures().subscribe(

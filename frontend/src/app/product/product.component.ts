@@ -17,7 +17,7 @@ export class ProductComponent implements OnInit {
 
   ngOnInit() {
     this.products = PRODUCTS;
-    console.log('Using mock products');
+    // console.log('Using mock products');
 
     /* TODO add this when back end is added
      this.productservice.getProducts().subscribe(

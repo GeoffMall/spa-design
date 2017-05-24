@@ -12,6 +12,6 @@ import {MaterialModule} from '../shared/material.module';
     SharedModule,
     FloorPlanRoutingModule,
   ],
-  declarations: [FloorPlanComponent]
+  declarations: [FloorPlanComponent],
 })
 export class FloorPlanModule { }

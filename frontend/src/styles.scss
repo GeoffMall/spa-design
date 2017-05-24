@@ -76,6 +76,10 @@ md-list-item:nth-of-type(4n+3) {
   font-family: 'Questrial', sans-serif;
 }
 
+.line-breaker {
+  white-space: pre-wrap;
+}
+
 .back-teal {
   background-color: $teal-a400;
 }
@@ -104,6 +108,21 @@ md-list-item:nth-of-type(4n+3) {
   background-color: $purple-a700;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
+.contain {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.cover {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 
 body {
   font-size: 1rem;

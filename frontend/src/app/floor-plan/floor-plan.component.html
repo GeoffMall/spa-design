@@ -1,11 +1,38 @@
-<div class="mat-card back-brown">
+<div *ngIf="!viewSingle" class="mat-card back-brown">
 
   <md-card class="back-blue-a400">
 
-    <md-card-content>
-        Floor Plan Coming Soon...
-    </md-card-content>
+    <md-grid-list cols="2" *ngIf="floorPlans" rowHeight="4:3">
+      <md-grid-tile *ngFor="let floorPlan of floorPlans" class="pointer" (click)="viewToSingle(floorPlan)">
+        <md-grid-tile-header>
+          {{floorPlan.name}}
+        </md-grid-tile-header>
+        <img md-card-image [src]="floorPlan.img" class="cover">
+      </md-grid-tile>
+    </md-grid-list>
 
   </md-card>
 
+</div>
+
+<div *ngIf="viewSingle" class="mat-card back-brown">
+
+  <md-card *ngIf="currentFloorPlan" class="back-blue-a200">
+    <p align="left">
+      <button md-card-avatar md-fab class="back-purple-a700" (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
+    </p>
+
+    <md-card-title>{{ currentFloorPlan.name }}</md-card-title>
+
+    <md-card-content>
+      <md-grid-list cols="2">
+        <md-grid-tile>
+          <img md-card-image [src]="currentFloorPlan.img" class="contain">
+        </md-grid-tile>
+        <md-grid-tile>
+          <p class="font-questrial">{{currentFloorPlan.description}}</p>
+        </md-grid-tile>
+      </md-grid-list>
+    </md-card-content>
+  </md-card>
 </div>
