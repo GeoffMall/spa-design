@@ -46,7 +46,7 @@ $deep-orange-a700: #dd2c00;
 $brown-800: #4e342e;
 
 md-list-item:nth-of-type(4n+0) {
-  background-color: $red-a100;
+  background-color: $purple-a100;
 }
 
 md-list-item:nth-of-type(4n+1) {
@@ -54,23 +54,35 @@ md-list-item:nth-of-type(4n+1) {
 }
 
 md-list-item:nth-of-type(4n+2) {
-  background-color: $purple-a100;
+  background-color: $purple-a200;
 }
 
 md-list-item:nth-of-type(4n+3) {
-  background-color: $deep-purple-a100;
+  background-color: $pink-a200;
 }
 
 .back-teal {
   background-color: $teal-a400;
 }
 
-.back-blue {
+.back-blue-a100 {
+  background-color: $blue-a100;
+}
+
+.back-blue-a200 {
   background-color: $blue-a200;
+}
+
+.back-blue-a400 {
+  background-color: $blue-a400;
 }
 
 .back-brown {
   background-color: $brown-800;
+}
+
+.back-orange-a100 {
+  background-color: $deep-orange-a100;
 }
 
 
