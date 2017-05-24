@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import {MaterialModule} from './material.module';
 import {AboutComponent} from './about/about.component';
 import {AppointmentsComponent} from './appointments/appointments.component';
+import {CapitalizePipe} from './capitalize.pipe';
 
 @NgModule({
   imports: [
@@ -13,10 +14,14 @@ import {AppointmentsComponent} from './appointments/appointments.component';
     AboutComponent,
     AppointmentsComponent,
 
+    CapitalizePipe,
+
   ],
   exports: [
     AboutComponent,
     AppointmentsComponent,
+
+    CapitalizePipe,
 
     MaterialModule
   ]

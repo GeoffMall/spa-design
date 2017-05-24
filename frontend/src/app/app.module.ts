@@ -12,7 +12,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {ProcedureModule} from './procedure/procedure.module';
 import {FloorPlanModule} from './floor-plan/floor-plan.module';
 import {ProductModule} from './product/product.module';
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [ AppComponent ],

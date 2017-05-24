@@ -7,7 +7,7 @@
     <md-list *ngIf="procedures">
       <md-list-item *ngFor="let procedure of procedures" (click)="viewToSingle(procedure)"
             class="mat-nav-list" mdTooltip="Click to see info">
-        <p>{{procedure.name}}</p>
+        <p>{{ procedure.name | capitalize: true }}</p>
       </md-list-item>
     </md-list>
   </md-card>
@@ -19,7 +19,7 @@
 
   <md-card *ngIf="currentProcedure" class="back-blue-a200">
       <p align="left">
-        <button md-card-avatar md-button (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
+        <button md-card-avatar md-fab class="back-purple-a700" (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
       </p>
 
       <md-card-title>{{ currentProcedure.name }}</md-card-title>
@@ -31,7 +31,7 @@
       </md-card-content>
 
       <md-card-actions align = "end">
-        <button md-button>Buy</button>
+        <button md-button class="back-purple-a700">Buy</button>
       </md-card-actions>
 
   </md-card>

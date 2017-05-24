@@ -1,12 +1,8 @@
 # spa-design
 
-###Installation
+### Installation
 
-In Terminal
-
-1.  `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-1.  `brew install node`
+###### In Terminal
 
 1.  `git clone https://github.com/GeoffMall/spa-design.git`
 

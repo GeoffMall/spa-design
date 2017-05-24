@@ -2,7 +2,7 @@ import {Procedure} from './procedure';
 export const PROCEDURES: Procedure[] = [
   {
     id: 1,
-    name: 'BODY MASSAGE SCRUB',
+    name: 'body massage scrub',
     avatar: 'Avatar 1',
     price: '$130.00',
     description: 'Feeling a little rough or a little dry? Rejuvenate your skin with this full-body exfoliation and ' +
@@ -16,7 +16,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 2,
-    name: 'ALGAE BODY MASSAGE SCRUB',
+    name: 'algae body massage scrub',
     avatar: 'Avatar 2',
     price: '$160.00',
     description: 'Algae Body Scrub is a unique, luxury scented body treatment with ultra-polishing seaweed (algae) ' +
@@ -28,7 +28,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 3,
-    name: 'AROMA BODY MASSAGE SCRUB',
+    name: 'aroma body massage scrub',
     avatar: 'Avatar 3',
     price: '$160.00',
     description: 'This exceptional and luxurious body scrub treatment is formulated to exfoliate, hydrate, nourish ' +
@@ -39,7 +39,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 4,
-    name: 'SALT BODY MASSAGE SCRUB',
+    name: 'salt body massage scrub',
     avatar: 'Avatar 4',
     price: '$160.00',
     description: 'Feel stress melt away as your skin is gently exfoliated and massaged using a blend of rich mineral ' +
@@ -50,7 +50,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 5,
-    name: 'EUROPEAN CLEANSING FACIAL',
+    name: 'european cleansing facial',
     avatar: 'Avatar 5',
     price: '$100.00+',
     description: 'A deep cleansing facial incorporating classic european movements. (ask about upgrades on customized care)',
@@ -58,7 +58,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 6,
-    name: 'VITAMIN C WHITE EFFECT',
+    name: 'vitamin c white effect',
     avatar: 'Avatar 5',
     price: '$139.00',
     description: 'Achieve a brighter and more harmonious complexion with tropical plant extracts and vitamin C. ' +
@@ -68,7 +68,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 7,
-    name: 'ECOLLAGEN BOOSTER TREATMENT',
+    name: 'ecollagen booster treatment',
     avatar: 'Avatar 5',
     price: '$139.00',
     description: 'Builds up and firms skin structure with the Collagen Booster, Collagen Biomatrix and through manual ' +
@@ -77,7 +77,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 8,
-    name: 'INTENSIVE FIRMING & HYDRATING',
+    name: 'intensive firming & hydrating',
     avatar: 'Avatar 5',
     price: '$139.00',
     description: 'Receive a refreshing mask, rich in active ingredients for all skin types, resulting in visibly ' +
@@ -86,7 +86,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 9,
-    name: 'THERMO ALGAE CLAYFACIAL',
+    name: 'thermo algae clayfacial',
     avatar: 'Avatar 5',
     price: '$139.00',
     description: 'Builds up and firms skin structure with the Collagen Booster, Collagen Biomatrix and through manual ' +
@@ -95,7 +95,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 10,
-    name: 'ECOLLAGEN BOOSTER TREATMENT',
+    name: 'ecollagen booster treatment',
     avatar: 'Avatar 5',
     price: '$139.00',
     description: 'A 4 step comprehensive process of using a rare algae mask followed by a firming warm clay mask.' +
@@ -104,7 +104,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 11,
-    name: 'CLEAR ACTION FOR ACNE',
+    name: 'clear action for acne',
     avatar: 'Avatar 5',
     price: '$139.00',
     description: 'Smoothes and relieves troubled skin to prevent further breakouts and gain control of your skin. ' +
@@ -114,7 +114,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 12,
-    name: 'GENTLEMEN\'S FACIAL',
+    name: 'gentlemen\'s facial',
     avatar: 'Avatar 5',
     price: '$125.00',
     description: 'Renew strength and vitality in your skin with a custom tailored gentlemen\'s facial.',
@@ -122,7 +122,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 13,
-    name: 'BLACK DIAMOND FACIAL / ACTIVE VITALIZING',
+    name: 'black diamond facial / active vitalizing',
     avatar: 'Avatar 5',
     price: '$160.00',
     description: 'This luxurious fruit treatment actively works to bring out the vitality and youthful appearance ' +
@@ -131,7 +131,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 14,
-    name: 'ADVANCED BIOGEN ROSE QUARTZ BIO- ENERGY TREATMENT',
+    name: 'advanced biogen rose quartz bio- energy treatment',
     avatar: 'Avatar 5',
     price: '$160.00',
     description: 'Rose Quartz, the stone of love and the heart, transfers healing energy and improves skin\'s ' +
@@ -141,7 +141,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 15,
-    name: 'ENERGIZING OXYGEN TREATMENT',
+    name: 'energizing oxygen treatment',
     avatar: 'Avatar 5',
     price: '$175.00',
     description: 'This stimulates energy levels allowing skin to breathe instantly: contains pure, encapsulated ' +
@@ -151,7 +151,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 16,
-    name: 'HSR : THE LIFT EXPERIENCE',
+    name: 'hsr : the lift experience',
     avatar: 'Avatar 5',
     price: '$185.00',
     description: 'Effectively protects and stimulates the skin\'s natural anti-aging system with the active HSR ' +
@@ -161,7 +161,7 @@ export const PROCEDURES: Procedure[] = [
   },
   {
     id: 17,
-    name: 'SEA CREATION: SUBMERGE INTO DEEP WATERS',
+    name: 'sea creation: submerge into deep waters',
     avatar: 'Avatar 5',
     price: '$305.00',
     description: 'The volcanic rifts on the seabed in Guayamas Bay are amongst the most eco-rich regions with high ' +
