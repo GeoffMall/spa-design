@@ -7,7 +7,7 @@
     <md-list *ngIf="procedures">
       <md-list-item *ngFor="let procedure of procedures" (click)="viewToSingle(procedure)"
             class="mat-nav-list" mdTooltip="Click to see info">
-        <p>{{ procedure.name | capitalize: true }}</p>
+        <p class="font-questrial">{{ procedure.name | capitalize: true }}</p>
       </md-list-item>
     </md-list>
   </md-card>
@@ -26,7 +26,7 @@
       <md-card-subtitle>Duration: {{ currentProcedure.duration }}</md-card-subtitle>
 
       <md-card-content>
-          <p>{{ currentProcedure.description }}</p>
+          <p class="font-roboto">{{ currentProcedure.description }}</p>
           <p align="right">{{ currentProcedure.price }}</p>
       </md-card-content>
 

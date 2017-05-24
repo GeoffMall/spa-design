@@ -1,9 +1,4 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
-* {
-  font-family: 'Pacifico', cursive;
-  // font-family: "Roboto", Arial, sans-serif;
-}
-
 
 $text-primary: #212121;
 $text-secondary: #757575;
@@ -45,6 +40,8 @@ $deep-orange-a700: #dd2c00;
 
 $brown-800: #4e342e;
 
+
+
 md-list-item:nth-of-type(4n+0) {
   background-color: $purple-a100;
 }
@@ -59,6 +56,24 @@ md-list-item:nth-of-type(4n+2) {
 
 md-list-item:nth-of-type(4n+3) {
   background-color: $pink-a200;
+}
+
+* {
+  font-family: 'Pacifico', cursive;
+  // font-family: "Roboto", Arial, sans-serif;
+  // font-family: 'Questrial', sans-serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.font-questrial {
+  font-family: 'Questrial', sans-serif;
 }
 
 .back-teal {

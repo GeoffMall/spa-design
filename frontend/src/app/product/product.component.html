@@ -9,7 +9,7 @@
         class="mat-nav-list" mdTooltip="Click to see info">
         <img md-card-avatar [src]="product.avatar">
         &nbsp; &nbsp; &nbsp;
-        <p>{{product.name | capitalize}}</p>
+        <p class="font-questrial">{{product.name | capitalize}}</p>
 
       </md-list-item>
     </md-list>
@@ -29,7 +29,7 @@
       <md-card-subtitle>{{ currentProduct.duration }}</md-card-subtitle>
 
       <md-card-content>
-          <p>{{ currentProduct.description }}</p>
+          <p class="font-roboto">{{ currentProduct.description }}</p>
           <p align="right">{{ currentProduct.price }}</p>
       </md-card-content>
 
