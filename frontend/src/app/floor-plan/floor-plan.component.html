@@ -3,7 +3,8 @@
   <md-card class="back-s2">
 
     <md-grid-list cols="4" *ngIf="floorPlans" rowHeight="4:3">
-      <md-grid-tile *ngFor="let floorPlan of floorPlans" class="pointer">
+      <md-grid-tile *ngFor="let floorPlan of floorPlans" class="pointer" (click)="viewToSingle(floorPlan)"
+        mdTooltip="Click to Enlarge" mdTooltipPosition="above" mdTooltipShowDelay="1000">
         <img md-card-image [src]="floorPlan.img" class="cover">
       </md-grid-tile>
     </md-grid-list>
@@ -15,11 +16,9 @@
 <div *ngIf="viewSingle">
 
   <md-card *ngIf="currentFloorPlan" class="back-s1">
-    <p align="left">
-      <button md-card-avatar md-fab class="back-s4" (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
-    </p>
     <md-card-content>
-      <img md-card-image [src]="currentFloorPlan.img" class="contain">
+      <img md-card-image [src]="currentFloorPlan.img" class="cover pointer" (click) = "viewToList()"
+        mdTooltip="Back" mdTooltipPosition="above" mdTooltipShowDelay="1000">
     </md-card-content>
   </md-card>
 </div>

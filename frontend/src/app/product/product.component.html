@@ -6,7 +6,7 @@
     </md-card-title>
     <md-list *ngIf="products">
       <md-list-item *ngFor="let product of products" (click)="viewToSingle(product)"
-        class="mat-nav-list" mdTooltip="Click to see info">
+        class="mat-nav-list" mdTooltip="Click to see info" mdTooltipPosition="below" mdTooltipShowDelay="1000">
         <img md-card-avatar [src]="product.avatar">
         &nbsp; &nbsp; &nbsp;
         <p class="font-questrial">{{product.name | capitalize}}</p>
