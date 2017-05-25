@@ -17,9 +17,9 @@
 
 <div *ngIf="viewSingle">
 
-  <md-card *ngIf="currentProcedure" class="back-s4">
+  <md-card *ngIf="currentProcedure" class="back-s1">
       <p align="left">
-        <button md-card-avatar md-fab class="back-purple-a700" (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
+        <button md-card-avatar md-fab class="back-s4" (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
       </p>
 
       <md-card-title>{{ currentProcedure.name }}</md-card-title>
@@ -31,7 +31,7 @@
       </md-card-content>
 
       <md-card-actions align = "end">
-        <button md-button class="back-purple-a700">Buy</button>
+        <button md-button class="back-s4">Buy</button>
       </md-card-actions>
 
   </md-card>

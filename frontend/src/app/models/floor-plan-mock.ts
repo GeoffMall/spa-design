@@ -1,6 +1,12 @@
 import {FloorPlan} from './floor-plan';
 export const FLOORPLANS: FloorPlan[] = [
   {
+    id: 1,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-1.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
     id: 2,
     name: 'Front Desk',
     img: 'assets/img/mock-floor-2.jpg',
@@ -24,4 +30,113 @@ export const FLOORPLANS: FloorPlan[] = [
     img: 'assets/img/mock-floor-5.jpg',
     description: 'fdsafsadfsa',
   },
+  {
+    id: 6,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-6.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 7,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-7.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 8,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-8.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 9,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-9.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 10,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-10.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 11,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-11.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 12,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-12.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 13,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-13.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 14,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-14.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 15,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-15.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 16,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-16.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 17,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-17.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 18,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-18.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 19,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-19.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 20,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-20.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 21,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-21.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 22,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-22.jpg',
+    description: 'asdffdsfsa',
+  },
+  {
+    id: 23,
+    name: 'Front Desk',
+    img: 'assets/img/mock-floor-23.jpg',
+    description: 'asdffdsfsa',
+  },
+
 ];

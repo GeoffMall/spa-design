@@ -13,8 +13,8 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.title = 'About Me';
-    this.subTitle = 'My Name';
+    this.title = 'Empress Day Spa';
+    this.subTitle = 'Sheree Weaver ';
   }
 
 }

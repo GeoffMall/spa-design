@@ -3,10 +3,7 @@
   <md-card class="back-s2">
 
     <md-grid-list cols="4" *ngIf="floorPlans" rowHeight="4:3">
-      <md-grid-tile *ngFor="let floorPlan of floorPlans" class="pointer" (click)="viewToSingle(floorPlan)">
-        <md-grid-tile-header>
-          {{floorPlan.name}}
-        </md-grid-tile-header>
+      <md-grid-tile *ngFor="let floorPlan of floorPlans" class="pointer">
         <img md-card-image [src]="floorPlan.img" class="cover">
       </md-grid-tile>
     </md-grid-list>
@@ -17,22 +14,12 @@
 
 <div *ngIf="viewSingle">
 
-  <md-card *ngIf="currentFloorPlan" class="back-s4">
+  <md-card *ngIf="currentFloorPlan" class="back-s1">
     <p align="left">
-      <button md-card-avatar md-fab class="back-purple-a700" (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
+      <button md-card-avatar md-fab class="back-s4" (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
     </p>
-
-    <md-card-title>{{ currentFloorPlan.name }}</md-card-title>
-
     <md-card-content>
-      <md-grid-list cols="2">
-        <md-grid-tile>
-          <img md-card-image [src]="currentFloorPlan.img" class="contain">
-        </md-grid-tile>
-        <md-grid-tile>
-          <p class="font-questrial">{{currentFloorPlan.description}}</p>
-        </md-grid-tile>
-      </md-grid-list>
+      <img md-card-image [src]="currentFloorPlan.img" class="contain">
     </md-card-content>
   </md-card>
 </div>
