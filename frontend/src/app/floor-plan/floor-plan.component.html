@@ -1,8 +1,8 @@
-<div *ngIf="!viewSingle" class="mat-card back-brown">
+<div *ngIf="!viewSingle">
 
-  <md-card class="back-blue-a400">
+  <md-card class="back-s2">
 
-    <md-grid-list cols="2" *ngIf="floorPlans" rowHeight="4:3">
+    <md-grid-list cols="4" *ngIf="floorPlans" rowHeight="4:3">
       <md-grid-tile *ngFor="let floorPlan of floorPlans" class="pointer" (click)="viewToSingle(floorPlan)">
         <md-grid-tile-header>
           {{floorPlan.name}}
@@ -15,9 +15,9 @@
 
 </div>
 
-<div *ngIf="viewSingle" class="mat-card back-brown">
+<div *ngIf="viewSingle">
 
-  <md-card *ngIf="currentFloorPlan" class="back-blue-a200">
+  <md-card *ngIf="currentFloorPlan" class="back-s4">
     <p align="left">
       <button md-card-avatar md-fab class="back-purple-a700" (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
     </p>

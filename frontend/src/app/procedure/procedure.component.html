@@ -1,6 +1,6 @@
-<div *ngIf="!viewSingle" class="mat-card back-brown">
+<div *ngIf="!viewSingle">
 
-  <md-card class="back-blue-a400">
+  <md-card class="back-s2">
     <md-card-title>
       Procedures
     </md-card-title>
@@ -15,9 +15,9 @@
 </div>
 
 
-<div *ngIf="viewSingle" class="mat-card back-brown">
+<div *ngIf="viewSingle">
 
-  <md-card *ngIf="currentProcedure" class="back-blue-a200">
+  <md-card *ngIf="currentProcedure" class="back-s4">
       <p align="left">
         <button md-card-avatar md-fab class="back-purple-a700" (click) = "viewToList()"><md-icon>arrow_back</md-icon></button>
       </p>

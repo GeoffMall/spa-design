@@ -1,12 +1,6 @@
 import {FloorPlan} from './floor-plan';
 export const FLOORPLANS: FloorPlan[] = [
   {
-    id: 1,
-    name: 'Floor Plan',
-    img: 'assets/img/mock-floor-1.jpg',
-    description: 'fdsasdf',
-  },
-  {
     id: 2,
     name: 'Front Desk',
     img: 'assets/img/mock-floor-2.jpg',
